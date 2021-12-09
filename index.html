@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercises</title>
+</head>
+<body>
+    <button onclick={squareArray()}>click</button>
+</body>
+<script>
+//     function squareArray(array) {
+//     array=[2,4,6]
+//     newArray = []
+//     let number = array.length;
+    
+//     for (let integer = 0; integer < number; integer++)
+//     {newArray.push = array[integer] * array[integer]};
+    
+//     console.log(newArray)
+// }
+function squareArray(array){
+    var array = [2,4,6,8]
+    newArray = array.map(value => Math.pow(value,2));
+    return newArray;
+}
+
+
+</script>
+</html>
